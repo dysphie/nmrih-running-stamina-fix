@@ -3,6 +3,8 @@ This plugin fixes a bug that allows players to sprint without losing stamina by 
 
 Some experienced players enjoy this bug and consider it a skillful technique. Use it at your own discretion!
 
+Also untested on Linux, report any issues you find.
+
 ## Installation
 - Download the .smx file and place it in your plugins folder.
 - Load the plugin (`sm plugins load sprinting-stamina-fix`).
