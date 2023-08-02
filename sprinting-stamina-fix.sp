@@ -16,7 +16,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	cvEnabled = CreateConVar("sm_stamina_glitch_fix", "1");
+	cvEnabled = CreateConVar("sm_stamina_glitch_fix", "1", "Enables or disables the plugin. 0 = off, 1 = on");
 	cvEnabled.AddChangeHook(OnToggleCvarChanged);
 
 	offs_m_bIsSprinting = FindSendPropInfo("CNMRiH_Player", "m_bIsSprinting");
