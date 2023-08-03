@@ -3,6 +3,11 @@ This plugin fixes a bug that allows players to sprint without losing stamina by 
 
 Some experienced players enjoy this bug and consider it a skillful technique. Use it at your own discretion!
 
+Demo:
+
+https://github.com/dysphie/nmrih-sprinting-stamina-fix/assets/11559683/4dbca9a0-ab4c-4b86-adfb-4155a235e911
+
+
 Also untested on Linux, report any issues you find.
 
 ## Installation
