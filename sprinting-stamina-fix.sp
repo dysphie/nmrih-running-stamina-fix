@@ -1,7 +1,11 @@
 #include <sdkhooks>
 #include <sdkhooks>
 
-int	   offs_m_bIsSprinting, offs_m_bGaveSprintPenalty;
+#pragma newdecls required
+#pragma semicolon 1
+
+int	   offs_m_bIsSprinting		 = -1;
+int	   offs_m_bGaveSprintPenalty = -1;
 
 ConVar cvEnabled;
 
@@ -25,7 +29,7 @@ public void OnPluginStart()
 		SetFailState("Failed to find offset for CNMRiH_Player::m_bIsSprinting");
 	}
 
-    // Unnamed boolean property that comes right after offs_m_bIsSprinting
+	// Unnamed boolean property that comes right after offs_m_bIsSprinting
 	offs_m_bGaveSprintPenalty = offs_m_bIsSprinting + 1;
 }
 
@@ -76,8 +80,8 @@ void UpdateHooks(bool enable)
 		{
 			SDKHook(client, SDKHook_PreThink, OnClientPreThink);
 		}
-		else 
-        {
+		else
+		{
 			SDKUnhook(client, SDKHook_PreThink, OnClientPreThink);
 		}
 	}
