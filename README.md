@@ -1,4 +1,7 @@
- # [NMRiH] Sprinting Stamina Fix
+> [!WARNING]
+> This plugin is unmaintained since Torn Banner's acquisition of the game.
+
+# [NMRiH] Sprinting Stamina Fix
 This plugin fixes a bug that allows players to sprint without losing stamina by repeatedly starting and stopping their sprint while holding down the sprint button, also knowns as "half sprint". This bug also enables players to jump farther than usual due to the increase in velocity.
 
 Some experienced players enjoy this bug and consider it a skillful technique. Use it at your own discretion!
